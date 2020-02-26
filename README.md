@@ -9,7 +9,7 @@ This package is a fork from the following manuscript that adds a simple graphica
 
 Chang, J.<sup>+</sup>, Anderson, T.K.<sup>+</sup>, Zeller, M.A.<sup>+</sup>, Gauger, P.C., Vincent, A.L. (2019). octoFLU: Automated classification to evolutionary origin of influenza A virus gene sequences detected in U.S. swine. [*Microbiology Resource Announcements* 8:e00673-19](https://doi.org/10.1128/MRA.00673-19). <sup>+</sup>These authors contributed equally.
 
-If you have problems running the pipeline, please use the Issues feature of github, or e-mail tavis.anderson@usda.gov or jennifer.chang@usda.gov directly. We thank Jordan Angell (USDA-APHIS, Visual Services) for the design of the octoFLU logo.
+Original software can be found here: https://github.com/flu-crew/octoFLU
  
 
 ## Input
@@ -23,7 +23,7 @@ Unaligned fasta with query sequences (e.g., strain name with protein segment ide
 ## Usage
 
 ```
-Double click the executable file "OctoFLU_Gui.exe" and select the input fasta file, along with a directory to hold the output.
+Double click the executable shortcut "OctoFLU_Gui" and select the input fasta file, along with a directory to hold the output.
 ```
 
 ## Installation
@@ -52,7 +52,4 @@ Edit the paths in `octoFLU_gui.py` to connect `blastn`, `makeblastdb`, `smof` `m
 ## Creating the executable file
 
 * Install necessary packages by opening an administer command prompt and running the "install_important_files.py" by typing the command: "python install_important_files.py"
-* Run the "create_exe.py" file by typing the command "python create_exe.py"
-* Create a shortcut by running the file "create_shortcut.py" and move the shortcut to where you want to run OctoFLU! 
-
-
+* Run the "create_gui.py" file by typing the command "python create_exe.py"
