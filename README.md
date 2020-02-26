@@ -2,7 +2,7 @@
   <img src="https://github.com/flu-crew/octoFLU/blob/master/img/octoFLU_revised_V3-01.png">
 </p>
 
-# octoFLU: Automated classification to evolutionary origin of influenza A virus gene sequences detected in U.S. swine
+# octoFLU_GUI: A Graphical User Interface for the automated classification to evolutionary origin of influenza A virus gene sequences detected in U.S. swine
 
 ## Use
 This package is a fork from the following manuscript that adds a simple graphical user interface, along with code to automate installation of packages and creates an executable:
